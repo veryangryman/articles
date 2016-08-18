@@ -1,6 +1,6 @@
 #Diving into the internals of the conntrack
 
-### Prerequirements
+### Requirements
 
 Я предполагаю, что читатель владеет базовыми знаниями о iptables и conntrack (рекомендуется прочесть [iptables tutorial](https://www.frozentux.net/iptables-tutorial/iptables-tutorial.html) или статью в [викиучебнике](https://ru.wikibooks.org/wiki/Iptables), чтобы знать таблицы и цепочки, а так же иметь представление, что такое __conntrack__ и __NAT__), о стуктурах данных (в объёме "что такое структура", "кортеж" и "как устроена хеш-таблица" - рекомендую к чтению [третью главу учебника Кормана и сотоварищей](https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B:_%D0%BF%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7) или [Вирта](http://www.inr.ac.ru/~info21/wirth/ADru/o_novoj_versii.htm)), об устройстве ОС (читать [Таненбаума](https://habrahabr.ru/company/piter/blog/258275/)), а так же о параллельном программировании, касательно примитивов синхронизации (тот же Таненбаум, чтобы для начала знать, что такое спинлок и когда он используется).
 
